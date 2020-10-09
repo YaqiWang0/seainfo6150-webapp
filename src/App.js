@@ -9,6 +9,11 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
+      const response = await fetch(
+          "http://demo1390455.mockable.io/articles"
+      )
+      const responseJson = await response.json();
+      setFetchedData(responseJson);
       // put data fetching code here!
     };
 
@@ -16,14 +21,26 @@ function App() {
       fetchData();
     }
   }, [fetchedData]);
+  let displayContent;
+  if (!isEmpty(fetchedData)) {
+    displayContent = (
+        <div className="App">
+          <Switch>
+            <Route>
+          {Object.values(fetchedData).map((item) => (
+                      <DynamicArticle article={item} />
 
+          ))}
+            </Route>
+          </Switch>
+        </div>
+    );
+  } else {
+    displayContent = <div>You have no data!</div>;
+  }
   return isEmpty(fetchedData) ? null : (
     <div className="App">
-      <Switch>
-        <Route>
-          <DynamicArticle article={Object.values(fetchedData)[1]} />
-        </Route>
-      </Switch>
+      {displayContent}
     </div>
   );
 }
