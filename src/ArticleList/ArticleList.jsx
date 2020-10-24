@@ -1,17 +1,16 @@
 import React from "react";
 import ArticleListItem from "../ArticleListItem/ArticleListItem";
+import styles from "./ArticleList.module.css"
 
 const ArticleList = (props) => {
     let displayContent;
     if(props.articles.length) {
         displayContent = (
 
-            <div>
-                <ul>
+            <div className={styles.container}>
                 {props.articles.map((item) => (
                         <ArticleListItem article={item} key={item.slug}/>
                     ))}
-                 </ul>
             </div>
         )
     } else {

@@ -1,0 +1,26 @@
+.container {
+    border: thin solid #c7090b;
+    border-radius: 15px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to right, rgba(199, 9, 11, 0.7), white 20%);
+}
+
+.title {
+   font-family: sans-serif;
+    color: #c7090b;
+    font-size: large;
+    padding: 0px;
+}
+
+.time {
+    font-size: x-small;
+    font-weight: bold;
+}
+
+.shortText {
+    font-size: x-small;
+}
+

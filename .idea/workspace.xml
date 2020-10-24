@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f7b3887-b86f-4f34-8358-170218829c25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArticleList/ArticleList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArticleListItem/ArticleListItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArticleList/ArticleList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArticleListItem/ArticleListItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArticleTextToggleButton/ArticleTextToggleButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArticleTextToggleButton/ArticleTextToggleButton.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArticleList/ArticleList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArticleList/ArticleList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArticleListItem/ArticleListItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArticleListItem/ArticleListItem.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +71,7 @@
       <workItem from="1602104900937" duration="1140000" />
       <workItem from="1602214008518" duration="4535000" />
       <workItem from="1602966116562" duration="5655000" />
+      <workItem from="1603403668796" duration="7697000" />
     </task>
     <servers />
   </component>
@@ -142,10 +147,18 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1629" height="361" key="GridCell.Tab.3.right/0.23.1792.1097/-2560.23.2560.1417@0.23.1792.1097" timestamp="1602214660690" />
-    <state x="667" y="389" key="com.intellij.ide.util.TipDialog" timestamp="1602966116601">
+    <state x="667" y="389" key="com.intellij.ide.util.TipDialog" timestamp="1603403675949">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="667" y="389" key="com.intellij.ide.util.TipDialog/0.23.1792.1097/-2560.23.2560.1417@0.23.1792.1097" timestamp="1602966116601" />
+    <state x="667" y="389" key="com.intellij.ide.util.TipDialog/0.23.1792.1097/-2560.23.2560.1417@0.23.1792.1097" timestamp="1603403675949" />
+    <state x="583" y="224" width="683" height="714" key="find.popup" timestamp="1603499604443">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="583" y="224" width="683" height="714" key="find.popup/0.23.1792.1097/-2560.23.2560.1417@0.23.1792.1097" timestamp="1603499604443" />
+    <state x="615" y="260" width="670" height="676" key="search.everywhere.popup" timestamp="1603500932069">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="615" y="260" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097/-2560.23.2560.1417@0.23.1792.1097" timestamp="1603500932069" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
