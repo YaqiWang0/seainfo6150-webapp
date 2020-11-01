@@ -14,7 +14,7 @@ const ArticleListItem = (props) => {
     }
     return (
         <div className={styles.container}>
-                <h3 className={styles.title}>{props.article.title}</h3>
+                <div className={styles.title}>{props.article.title}</div>
             {
             buttonText === "Show less" ?
                 <div>
