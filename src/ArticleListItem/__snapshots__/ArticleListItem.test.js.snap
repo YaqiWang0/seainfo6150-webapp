@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleListItem tests renders correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="title"
+    >
+      Airline etiquette: Tips from an expert 
+    </div>
+    <button
+      class="button"
+    >
+      Show more
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ArticleListItem tests renders correctly after button is clicked 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="title"
+    >
+      Airline etiquette: Tips from an expert 
+    </div>
+    <div>
+      <p
+        class="shortText"
+      >
+        I was sitting in an aisle seat on a flight earlier this year when a fellow traveler approached and politely said he thought I may be sitting in his seat.
+      </p>
+      <time
+        class="time"
+        datetime="2018-11-19T11:10:20.000Z"
+      >
+        November 19th 2018, 3:10 am
+      </time>
+    </div>
+    <button
+      class="button"
+    >
+      Show less
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ArticleListItem tests renders correctly after button is clicked 2`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="title"
+    >
+      Airline etiquette: Tips from an expert 
+    </div>
+    <button
+      class="button"
+    >
+      Show more
+    </button>
+  </div>
+</div>
+`;
